@@ -185,12 +185,13 @@
 									<small id="confirm_error" style="visibility:hidden;color:red;">Password Do not
 										Match</small>
 								</div>
-								<div class="dob_fileds selectbox">
+								<div class="dob_fileds selectbox" id="date">
 									<label>My birthdate is</label>
 
 									<ul>
 										<li>
 											<select name="month" class="select month" id="month">
+												<option value="month">Month</option>
 												<option value="jan">Jan</option>
 												<option value="feb">Feb</option>
 												<option value="march">March</option>
@@ -207,6 +208,7 @@
 										</li>
 										<li>
 											<select name="day" class="select day" id="day">
+												<option value="day">Day</option>
 												<option value="1">01</option>
 												<option value="2">02</option>
 												<option value="3">03</option>
@@ -259,6 +261,8 @@
 											</select>
 										</li>
 									</ul>
+									<small id="date_error" style="visibility:hidden;color:red;">Please Fill This
+										Filed</small>
 								</div>
 							</li>
 							<li class="fileds">

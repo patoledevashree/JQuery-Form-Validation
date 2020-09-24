@@ -234,6 +234,20 @@ $('#about').on('input blur',function(){
     }
 });
 
+/**
+ * Description: Function to validate date.
+ */
+$('#date').on({
+    change:function(){
+        if($('#day').val() == "day" || $('#month').val() == "month" || $('#year').val()== "year"){
+            $('#date_error').css('visibility','visible');
+        }
+        else{
+            $('#date_error').css('visibility','hidden');
+        }
+    }
+});
+
 
 
 
