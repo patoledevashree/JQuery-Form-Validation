@@ -101,6 +101,7 @@
 			<div class="container">
 				<div class="filable_form_container">
 					<div class="form_heading_block">
+						
 						<ul>
 							<li class="active">
 								<div class="box">
@@ -135,6 +136,7 @@
 						otherwise you may be disappointed with your matches and they with you.</div>
 
 					<div class="form_container_block">
+						<form id="form-id">
 						<ul>
 							<li class="fileds">
 								<div class="name_fileds">
@@ -181,7 +183,7 @@
 							<li class="fileds">
 								<div class="pass_fileds">
 									<label>Confirm Password</label>
-									<input name="password" type="text" id="confirmPwd" />
+									<input name="password" type="text" id="confirmPwd" disabled/>
 									<small id="confirm_error" style="visibility:hidden;color:red;">Password Do not
 										Match</small>
 								</div>
@@ -306,10 +308,14 @@
 						</ul>
 						<div class="next_btn_block">
 							<div class="next_btn">
-								<a href="partners_preference_form.html">Proceed to Step 2 <span><img
-											src="images/small_triangle.png" alt="small_triangle"> </span></a>
+								<!--<a href="partners_preference_form.html">Proceed to Step 2 <span><img
+											src="images/small_triangle.png" alt="small_triangle"> </span></a>-->
+								<button type="submit" style="color: white;height: 50px;width: 250px; background-color: rgb(21, 202, 21);border:1px solid rgb(54, 230, 54); ">
+									Proceed to Step 2<span><img
+									src="images/small_triangle.png" alt="small_triangle"></button>
 							</div>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
